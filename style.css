@@ -4,17 +4,49 @@ body {
     font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
-.header {
+/* style and position heading areas */
+.heading {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     padding: 4px 32px;
+    margin: 0;
+    background-color: #1F2937;
 }
 
-.welcome-info-container {
+.right-links-list {
     display: flex;
+    flex-direction: row;
+
+}
+
+/* resyles links and list */
+
+ul {
+    padding: 4px;
+}
+
+li {
+    list-style-type: none;
+    padding: 4px;
+    margin: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* establishes welcome container and children containers */
+
+.welcome-info-container {
+    padding: 4px 12px 0px;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 72px;
+    padding-top: 48px;
 
 }
 
@@ -22,3 +54,35 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+/* styles and position elemetns */
+
+.welcome-image{
+    flex-grow: 0;
+    max-height: 500px;
+    max-width: auto;
+}
+
+.welcome-texts {
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* this influences button as a globally */
+.button {
+    max-width: 84px;
+    max-height: 42px;
+}
+
+/* postions addtional info section */
+.additional-info-header {
+    text-align: center;
+}
+
+.additional-info-container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* styles and potisions elements */
