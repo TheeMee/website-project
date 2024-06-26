@@ -44,6 +44,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    text-align: left;
     align-items: center;
     gap: 72px;
     padding-top: 48px;
@@ -53,6 +54,7 @@ a {
 .welcome-texts {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
 }
 
 /* styles and position elemetns */
@@ -77,12 +79,85 @@ a {
 
 /* postions addtional info section */
 .additional-info-header {
+    margin-top: 48px;
     text-align: center;
 }
 
 .additional-info-container {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    gap: 32px;
+    margin: 42px 12px;
 }
 
 /* styles and potisions elements */
+
+.box {
+    width: 90px;
+    height: 90px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+    /* margin: 0 auto; */
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.item .subtext {
+    text-align: center;
+}
+
+/* syles and positions quotes section */
+.quote-container {
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+    margin: 0 auto;
+
+}
+
+.quote-credit {
+    margin-left: auto;
+}
+
+/* positions and styles */
+.call-to-action-container { 
+    display: flex;  
+    margin: 60px 0px;
+    justify-content: center;
+}
+
+/* is named links to stay consistent even though it doesn't cantain any links */
+.call-to-action-panel {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    background-color: #aaccfb;
+    align-items: center;
+}
+
+.left-links {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+}
+
+.left-links .action-header,
+.left-links .action-subtext {
+    margin: 0px;
+}
+
+/* styles and positions footer */
+.footer {
+    text-align: center;
+}
