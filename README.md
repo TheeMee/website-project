@@ -1,2 +1,2 @@
-# website-project
-this is a website project built after learning css on the odin project
+This is a file created in order to learn how to create a webpage from scratch
+using knowledge gathered from learning html and css
